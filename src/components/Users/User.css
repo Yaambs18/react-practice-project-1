@@ -1,0 +1,13 @@
+.user-item {
+    align-items: center;
+    padding: 0.2rem;
+    margin: 1rem 30rem;
+    background-color: #4b4b4b;
+
+    list-style: none;
+
+    color: white;
+    font-size: large;
+    font-weight: 700;
+
+  }
