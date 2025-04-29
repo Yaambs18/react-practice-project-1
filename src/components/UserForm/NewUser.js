@@ -23,12 +23,12 @@ const NewUser = props => {
     }
 
     return (
-        <div>
+        <React.Fragment>
             {error && <ErrorModal title={error.title} message={error.message} onClick={errorModalClickHandler}/>}
             <div className='new-user'>
                 <UserForm onSaveUser={saveUserHandler} onError={onError} />
             </div>
-        </div>
+        </React.Fragment>
     );
 }
 
